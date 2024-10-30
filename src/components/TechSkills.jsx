@@ -6,7 +6,7 @@ import { fadeIn } from "../utils/motion";
 const techSkillsData = [
   {
     title: "Programming languages",
-    description: "Python, C++, Java",
+    description: "Python, C++, JavaScript",
   },
   {
     title: "Front-end dev",
