@@ -33,7 +33,7 @@ const Contact = () => {
     <section
       ref={sectionRef}
       id="contact"
-      className="relative w-full h-[80vh] mx-auto flex flex-col justify-center items-center"
+      className="relative w-full h-[100vh] mx-auto flex flex-col justify-center items-center "
     >
       <div className="absolute w-[82vw] h-[80vh] flex flex-col justify-center items-center gap-10">
         <div className="w-full h-[20%] flex justify-center items-center">

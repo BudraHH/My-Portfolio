@@ -143,7 +143,7 @@ const TechSkills = () => {
                 variants={item}  // Use item animation
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
-                className={`border-[1px] border-cyan-400 p-5 rounded-lg shadow-md w-[30%] h-[200px] m-3 flex flex-col justify-center items-center transition-transform duration-300 transform ${
+                className={`border-[1px] border-cyan-400 p-5 rounded-lg shadow-md cursor-pointer w-[30%] h-[200px] m-3 flex flex-col justify-center items-center transition-transform duration-300 transform ${
                   hoveredIndex === index ? "scale-110" : ""
                 }`}
               >

@@ -1,6 +1,5 @@
-import  { useEffect, useState } from "react";
-import { HashLink as Link } from "react-router-hash-link"; // Import HashLink for smooth scrolling
-
+import  { React, useEffect, useState } from "react";
+import { HashLink as Link } from "react-router-hash-link"; 
 const ContactMeButton = () => {
   const [scrolled, setScrolled] = useState(false);
 

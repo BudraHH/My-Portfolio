@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Education, TechSkills, Home, Navbar, Footer, Projects } from "./components";
 import Section from "./components/Section";
