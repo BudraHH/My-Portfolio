@@ -1,0 +1,30 @@
+/* Typewriter container to position text and cursor */
+.typewriter-container {
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Blinking cursor animation */
+  .cursor {
+    display: inline-block;
+    width: 1px;
+    background-color: black;
+    margin-left: 5px;
+    animation: blink 1s infinite;
+  }
+  
+  /* Keyframes for the blinking cursor effect */
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
